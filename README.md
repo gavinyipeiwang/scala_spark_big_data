@@ -1,10 +1,10 @@
 # scala_spark_big_data
 ## Transformations vs Actions
-⋅⋅* Transformations are lazy.
-..* Actions are eager. So cache/persist results if necessary.
-..* Partition is the smallest computing unit.
-..* Following the concept of parallelism in the last course, parallelization in Spark is done on partition level.
-..* Run an action job is blocking.
+1. Transformations are lazy.
+2. Actions are eager. So cache/persist results if necessary.
+3. Partition is the smallest computing unit.
+4. Following the concept of parallelism in the last course, parallelization in Spark is done on partition level.
+5. Run an action job is blocking.
 ```scala
 def submitJob[T, U](
       rdd: RDD[T],
