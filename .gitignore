@@ -1,0 +1,7 @@
+/stackoverflow/.idea
+/stackoverflow/src/main/resources/stackoverflow/stackoverflow.csv
+/stackoverflow/target
+/wikipedia/.idea
+/wikipedia/src/main/resources/wikipedia/wikipedia.dat
+/wikipedia/target
+*.DS_Store
