@@ -36,3 +36,4 @@ def submitJob[T, U](
     waiter
 }
 ```
+6. Trying to reduce network IO as it's expensive.
